@@ -11,7 +11,8 @@ use Symfony\Component\Routing\Annotation\Route;
 class CineController extends AbstractController{
     
    #[Route('/cine', name:'cine_index')]
-   public function cineIndex():Response{
+   public function cineIndex() : Response
+   {
        return $this->render('Cine/cine.html.twig');
    }
 
