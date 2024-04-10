@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\CineBundle\Controller;
+namespace Rodrigoceacero\CineBundleTest\Controller;
 
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;

@@ -1,6 +1,6 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
-rodrigoceacaero_cine:
+rodrigoceacero_cine:
     resource: "../src/Controller/"
     type: attribute

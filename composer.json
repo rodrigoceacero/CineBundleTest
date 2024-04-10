@@ -35,12 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Rodrigoceacero\\CineTestBundle\\": "src/"
+            "Rodrigoceacero\\CineBundleTest\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rodrigoceacero\\CineTestBundle\\Tests\\": "src/"
+            "Rodrigoceacero\\CineBundleTest\\Tests\\": "src/"
         }
     },
     "scripts": {

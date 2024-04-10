@@ -6,11 +6,11 @@
 parameters:
 
 services:
-    Rodrigoceacero\CineTestBundle\Controller\:
+    Rodrigoceacero\CineBundleTest\Controller\:
         resource: '../src/Controller/*'
         autowire: true
         autoconfigure: true
-    Rodrigoceacero\CineTestBundle\Controller\CineController:
+    CineBundleTest\Controller\CineTestController:
         tags: ['controller.service_arguments']
     # default configuration for services in *this* file
     _defaults:
