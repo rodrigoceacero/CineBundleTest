@@ -1,6 +1,8 @@
 {
-    "type": "project",
-    "license": "proprietary",
+    "name": "rodrigoceacero/cinetest-bundle",
+    "description": "Bundle de prueba para la gestión de un cine",
+    "type": "symfony-bundle",
+    "license": "MIT",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
@@ -33,7 +35,7 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "rodrigoceacero\\CineTestBundle\\": "src/"
         }
     },
     "autoload-dev": {
