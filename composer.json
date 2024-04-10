@@ -3,7 +3,7 @@
     "description": "Bundle de prueba para la gestión de un cine",
     "type": "symfony-bundle",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "php": ">=7.2.5",
