@@ -2,9 +2,9 @@
 
 namespace Rodrigoceacero\CineTestBundle;
 
-use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
+use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class RodrigoceaceroCineTestBundle extends AbstractBundle
+class RodrigoceaceroCineTestBundle extends Bundle
 {
     public function getPath(): string
     {
